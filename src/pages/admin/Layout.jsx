@@ -9,7 +9,7 @@ const Layout = () => {
     <AdminNavbar/>
     <div className='flex'>
         <AdminSidebar/>
-        <div className='flex-1 px-4 py-10 md:mx h-[calc(100vh-64px)] overflow-hidden'>
+        <div className='flex-1 px-4 py-10 md:mx min-h-[calc(100vh-64px)] overflow-y-auto'>
             <Outlet/>
         </div>
     </div>
